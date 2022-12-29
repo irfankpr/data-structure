@@ -5,6 +5,7 @@ class stack():
         self.top = -1
 
     def pop(self):
+        print("popped : ",self.s[self.top])
         self.s.pop()
         print(self.s)
         self.top -= 1
