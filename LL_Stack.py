@@ -4,6 +4,7 @@ class node:
         self.ref = None
 
 
+from collections import deque
 class stack:
     def __init__(self):
         self.top = None

@@ -25,7 +25,7 @@ while op != "0":
         Q.deque()
     elif op == "3":
         Q.clear()
-    elif op != 0:
+    elif op != "0":
         print("invalid entry !")
 else:
     print("exited ......")
